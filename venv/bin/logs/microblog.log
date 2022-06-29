@@ -1,0 +1,63 @@
+2022-06-28 22:40:30,066 INFO: Microblog startup [in /Users/eandersen/GIT/CMU_BUG/CMU_BUG_PYC/CMU-SOEN-Microblog-Assignment-Repo/app/__init__.py:89]
+2022-06-28 22:41:17,207 INFO: Microblog startup [in /Users/eandersen/GIT/CMU_BUG/CMU_BUG_PYC/CMU-SOEN-Microblog-Assignment-Repo/app/__init__.py:89]
+2022-06-28 22:41:39,376 INFO: Microblog startup [in /Users/eandersen/GIT/CMU_BUG/CMU_BUG_PYC/CMU-SOEN-Microblog-Assignment-Repo/app/__init__.py:89]
+2022-06-29 00:36:45,803 INFO: Microblog startup [in /Users/eandersen/GIT/CMU_BUG/CMU_BUG_PYC/CMU-SOEN-Microblog-Assignment-Repo/app/__init__.py:89]
+2022-06-29 00:40:18,858 INFO: Microblog startup [in /Users/eandersen/GIT/CMU_BUG/CMU_BUG_PYC/CMU-SOEN-Microblog-Assignment-Repo/app/__init__.py:89]
+2022-06-29 00:41:55,402 INFO: Microblog startup [in /Users/eandersen/GIT/CMU_BUG/CMU_BUG_PYC/CMU-SOEN-Microblog-Assignment-Repo/app/__init__.py:89]
+2022-06-29 00:44:07,439 INFO: Microblog startup [in /Users/eandersen/GIT/CMU_BUG/CMU_BUG_PYC/CMU-SOEN-Microblog-Assignment-Repo/app/__init__.py:89]
+2022-06-29 00:46:38,587 INFO: Microblog startup [in /Users/eandersen/GIT/CMU_BUG/CMU_BUG_PYC/CMU-SOEN-Microblog-Assignment-Repo/app/__init__.py:89]
+2022-06-29 00:46:44,886 ERROR: Exception on /auth/login [POST] [in /Library/Python/3.8/site-packages/flask/app.py:1454]
+Traceback (most recent call last):
+  File "/Library/Python/3.8/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Python/3.8/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Python/3.8/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Python/3.8/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/eandersen/GIT/CMU_BUG/CMU_BUG_PYC/CMU-SOEN-Microblog-Assignment-Repo/app/auth/routes.py", line 23, in login
+    return redirect(next_page)
+UnboundLocalError: local variable 'next_page' referenced before assignment
+2022-06-29 00:46:58,886 ERROR: Exception on /auth/login [POST] [in /Library/Python/3.8/site-packages/flask/app.py:1454]
+Traceback (most recent call last):
+  File "/Library/Python/3.8/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Python/3.8/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Python/3.8/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Python/3.8/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/eandersen/GIT/CMU_BUG/CMU_BUG_PYC/CMU-SOEN-Microblog-Assignment-Repo/app/auth/routes.py", line 23, in login
+    return redirect(next_page)
+UnboundLocalError: local variable 'next_page' referenced before assignment
+2022-06-29 12:13:41,033 INFO: Microblog startup [in /Users/eandersen/GIT/CMU_BUG/CMU_BUG_PYC/CMU-SOEN-Microblog-Assignment-Repo/app/__init__.py:89]
+2022-06-29 12:13:50,444 ERROR: Exception on /auth/login [POST] [in /Library/Python/3.8/site-packages/flask/app.py:1454]
+Traceback (most recent call last):
+  File "/Library/Python/3.8/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Python/3.8/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Python/3.8/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Python/3.8/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/eandersen/GIT/CMU_BUG/CMU_BUG_PYC/CMU-SOEN-Microblog-Assignment-Repo/app/auth/routes.py", line 23, in login
+    return redirect(next_page)
+UnboundLocalError: local variable 'next_page' referenced before assignment
+2022-06-29 12:13:54,406 ERROR: Exception on /auth/login [POST] [in /Library/Python/3.8/site-packages/flask/app.py:1454]
+Traceback (most recent call last):
+  File "/Library/Python/3.8/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Python/3.8/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Python/3.8/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Python/3.8/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/eandersen/GIT/CMU_BUG/CMU_BUG_PYC/CMU-SOEN-Microblog-Assignment-Repo/app/auth/routes.py", line 23, in login
+    return redirect(next_page)
+UnboundLocalError: local variable 'next_page' referenced before assignment
+2022-06-29 12:14:10,996 INFO: Microblog startup [in /Users/eandersen/GIT/CMU_BUG/CMU_BUG_PYC/CMU-SOEN-Microblog-Assignment-Repo/app/__init__.py:89]
+2022-06-29 12:16:03,076 INFO: Microblog startup [in /Users/eandersen/GIT/CMU_BUG/CMU_BUG_PYC/CMU-SOEN-Microblog-Assignment-Repo/app/__init__.py:89]
