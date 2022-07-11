@@ -1,0 +1,72 @@
+2022-07-07 21:10:50,645 INFO: Microblog startup [in /Users/eandersen/GIT/CMU_NEW/CMU-SOEN-Microblog-Assignment-Repo/app/__init__.py:89]
+2022-07-07 21:11:11,663 INFO: Microblog startup [in /Users/eandersen/GIT/CMU_NEW/CMU-SOEN-Microblog-Assignment-Repo/app/__init__.py:89]
+2022-07-07 21:13:01,902 INFO: Microblog startup [in /Users/eandersen/GIT/CMU_NEW/CMU-SOEN-Microblog-Assignment-Repo/app/__init__.py:89]
+2022-07-07 21:14:39,190 INFO: Microblog startup [in /Users/eandersen/GIT/CMU_NEW/CMU-SOEN-Microblog-Assignment-Repo/app/__init__.py:89]
+2022-07-07 21:22:19,667 INFO: Microblog startup [in /Users/eandersen/GIT/CMU_NEW/CMU-SOEN-Microblog-Assignment-Repo/app/__init__.py:89]
+2022-07-07 21:45:45,332 INFO: Microblog startup [in /Users/eandersen/GIT/CMU_NEW/CMU-SOEN-Microblog-Assignment-Repo/app/__init__.py:89]
+2022-07-07 22:12:28,989 INFO: Microblog startup [in /Users/eandersen/GIT/CMU_NEW/CMU-SOEN-Microblog-Assignment-Repo/app/__init__.py:89]
+2022-07-07 22:15:53,405 INFO: Microblog startup [in /Users/eandersen/GIT/CMU_NEW/CMU-SOEN-Microblog-Assignment-Repo/app/__init__.py:89]
+2022-07-07 22:18:51,913 INFO: Microblog startup [in /Users/eandersen/GIT/CMU_NEW/CMU-SOEN-Microblog-Assignment-Repo/app/__init__.py:89]
+2022-07-07 22:19:40,856 INFO: Microblog startup [in /Users/eandersen/GIT/CMU_NEW/CMU-SOEN-Microblog-Assignment-Repo/app/__init__.py:89]
+2022-07-07 22:20:45,269 INFO: Microblog startup [in /Users/eandersen/GIT/CMU_NEW/CMU-SOEN-Microblog-Assignment-Repo/app/__init__.py:89]
+2022-07-07 22:40:51,460 INFO: Microblog startup [in /Users/eandersen/GIT/CMU_NEW/CMU-SOEN-Microblog-Assignment-Repo/app/__init__.py:89]
+2022-07-07 22:42:50,185 INFO: Microblog startup [in /Users/eandersen/GIT/CMU_NEW/CMU-SOEN-Microblog-Assignment-Repo/app/__init__.py:89]
+2022-07-08 14:40:57,172 INFO: Microblog startup [in /Users/eandersen/GIT/CMU_NEW/CMU-SOEN-Microblog-Assignment-Repo/app/__init__.py:89]
+2022-07-08 14:41:24,575 INFO: Microblog startup [in /Users/eandersen/GIT/CMU_NEW/CMU-SOEN-Microblog-Assignment-Repo/app/__init__.py:89]
+2022-07-08 14:43:25,178 INFO: Microblog startup [in /Users/eandersen/GIT/CMU_NEW/CMU-SOEN-Microblog-Assignment-Repo/app/__init__.py:89]
+2022-07-08 15:19:30,150 INFO: Microblog startup [in /Users/eandersen/GIT/CMU_NEW/CMU-SOEN-Microblog-Assignment-Repo/app/__init__.py:89]
+2022-07-08 15:26:02,767 INFO: Microblog startup [in /Users/eandersen/GIT/CMU_NEW/CMU-SOEN-Microblog-Assignment-Repo/app/__init__.py:89]
+2022-07-08 15:43:42,939 INFO: Microblog startup [in /Users/eandersen/GIT/CMU_NEW/CMU-SOEN-Microblog-Assignment-Repo/app/__init__.py:89]
+2022-07-08 15:44:35,409 INFO: Microblog startup [in /Users/eandersen/GIT/CMU_NEW/CMU-SOEN-Microblog-Assignment-Repo/app/__init__.py:89]
+2022-07-08 15:45:07,230 INFO: Microblog startup [in /Users/eandersen/GIT/CMU_NEW/CMU-SOEN-Microblog-Assignment-Repo/app/__init__.py:89]
+2022-07-11 08:34:15,478 INFO: Microblog startup [in /Users/eandersen/GIT/CMU_NEW/CMU-SOEN-Microblog-Assignment-Repo/app/__init__.py:89]
+2022-07-11 08:35:08,218 INFO: Microblog startup [in /Users/eandersen/GIT/CMU_NEW/CMU-SOEN-Microblog-Assignment-Repo/app/__init__.py:89]
+2022-07-11 08:36:25,252 INFO: Microblog startup [in /Users/eandersen/GIT/CMU_NEW/CMU-SOEN-Microblog-Assignment-Repo/app/__init__.py:89]
+2022-07-11 08:37:18,068 INFO: Microblog startup [in /Users/eandersen/GIT/CMU_NEW/CMU-SOEN-Microblog-Assignment-Repo/app/__init__.py:89]
+2022-07-11 08:44:01,119 INFO: Microblog startup [in /Users/eandersen/GIT/CMU_NEW/CMU-SOEN-Microblog-Assignment-Repo/app/__init__.py:89]
+2022-07-11 09:03:26,412 INFO: Microblog startup [in /Users/eandersen/GIT/CMU_NEW/CMU-SOEN-Microblog-Assignment-Repo/app/__init__.py:89]
+2022-07-11 09:05:08,221 ERROR: Exception on /auth/login [POST] [in /Users/eandersen/GIT/CMU_NEW/CMU-SOEN-Microblog-Assignment-Repo/venv/lib/python3.8/site-packages/flask/app.py:1454]
+Traceback (most recent call last):
+  File "/Users/eandersen/GIT/CMU_NEW/CMU-SOEN-Microblog-Assignment-Repo/venv/lib/python3.8/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/eandersen/GIT/CMU_NEW/CMU-SOEN-Microblog-Assignment-Repo/venv/lib/python3.8/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/eandersen/GIT/CMU_NEW/CMU-SOEN-Microblog-Assignment-Repo/venv/lib/python3.8/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/eandersen/GIT/CMU_NEW/CMU-SOEN-Microblog-Assignment-Repo/venv/lib/python3.8/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/eandersen/GIT/CMU_NEW/CMU-SOEN-Microblog-Assignment-Repo/app/auth/routes.py", line 26, in login
+    em = User.query.filter_by(email=form.email.data).first()
+AttributeError: 'LoginForm' object has no attribute 'email'
+2022-07-11 09:05:46,217 INFO: Microblog startup [in /Users/eandersen/GIT/CMU_NEW/CMU-SOEN-Microblog-Assignment-Repo/app/__init__.py:89]
+2022-07-11 09:07:10,878 ERROR: Exception on /auth/login [POST] [in /Users/eandersen/GIT/CMU_NEW/CMU-SOEN-Microblog-Assignment-Repo/venv/lib/python3.8/site-packages/flask/app.py:1454]
+Traceback (most recent call last):
+  File "/Users/eandersen/GIT/CMU_NEW/CMU-SOEN-Microblog-Assignment-Repo/venv/lib/python3.8/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/eandersen/GIT/CMU_NEW/CMU-SOEN-Microblog-Assignment-Repo/venv/lib/python3.8/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/eandersen/GIT/CMU_NEW/CMU-SOEN-Microblog-Assignment-Repo/venv/lib/python3.8/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/eandersen/GIT/CMU_NEW/CMU-SOEN-Microblog-Assignment-Repo/venv/lib/python3.8/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/eandersen/GIT/CMU_NEW/CMU-SOEN-Microblog-Assignment-Repo/app/auth/routes.py", line 26, in login
+    em = User.query.filter_by(username=form.email.data).first()
+AttributeError: 'LoginForm' object has no attribute 'email'
+2022-07-11 09:08:12,934 INFO: Microblog startup [in /Users/eandersen/GIT/CMU_NEW/CMU-SOEN-Microblog-Assignment-Repo/app/__init__.py:89]
+2022-07-11 09:09:17,502 ERROR: Exception on /auth/login [POST] [in /Users/eandersen/GIT/CMU_NEW/CMU-SOEN-Microblog-Assignment-Repo/venv/lib/python3.8/site-packages/flask/app.py:1454]
+Traceback (most recent call last):
+  File "/Users/eandersen/GIT/CMU_NEW/CMU-SOEN-Microblog-Assignment-Repo/venv/lib/python3.8/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/eandersen/GIT/CMU_NEW/CMU-SOEN-Microblog-Assignment-Repo/venv/lib/python3.8/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/eandersen/GIT/CMU_NEW/CMU-SOEN-Microblog-Assignment-Repo/venv/lib/python3.8/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/eandersen/GIT/CMU_NEW/CMU-SOEN-Microblog-Assignment-Repo/venv/lib/python3.8/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/eandersen/GIT/CMU_NEW/CMU-SOEN-Microblog-Assignment-Repo/app/auth/routes.py", line 26, in login
+    user = User.query.filter_by(username=form.email.data).first()
+AttributeError: 'LoginForm' object has no attribute 'email'
+2022-07-11 09:10:09,827 INFO: Microblog startup [in /Users/eandersen/GIT/CMU_NEW/CMU-SOEN-Microblog-Assignment-Repo/app/__init__.py:89]
+2022-07-11 09:29:01,197 INFO: Microblog startup [in /Users/eandersen/GIT/CMU_NEW/CMU-SOEN-Microblog-Assignment-Repo/app/__init__.py:89]
+2022-07-11 09:31:43,506 INFO: Microblog startup [in /Users/eandersen/GIT/CMU_NEW/CMU-SOEN-Microblog-Assignment-Repo/app/__init__.py:89]
+2022-07-11 09:32:59,048 INFO: Microblog startup [in /Users/eandersen/GIT/CMU_NEW/CMU-SOEN-Microblog-Assignment-Repo/app/__init__.py:89]
