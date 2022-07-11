@@ -9,7 +9,7 @@ from app.models import User
 class EditProfileForm(FlaskForm):
     username = StringField(_l('Username'), validators=[DataRequired()])
 # ERIK.sn
-    email = StringField(_l('Email'), validators=[DataRequired(), Email("Please format your email address correctly")])
+    email = StringField(_l('Email'), validators=[DataRequired(), Email("Please format your email address correctly.")])
 # ERIK.en
     about_me = TextAreaField(_l('About me'),
                              validators=[Length(min=0, max=140)])
